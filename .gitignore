@@ -1,0 +1,14 @@
+# Build
+output
+target/
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Local configuration and secrets - never commit
+.env
+*.local.properties
+application-local.*
